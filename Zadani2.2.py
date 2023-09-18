@@ -1,6 +1,5 @@
 import math
 
-#Metoda vypoctu obsahu
 def calculate_content(radius):
     if radius <= 0:
         raise ArithmeticError("Polomer musi byt kladne cislo")
